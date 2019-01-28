@@ -1,0 +1,58 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.btn btn-primary {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a{
+    height: 1000px;
+}
+
+.b{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 70%;
+}
+
+.b p {
+    
+}
+.content_post{
+    height: 670px;
+    width: 500px;
+    background-size: contain;
+}
+
+.b p{
+position: relative;
+padding: 0.25em 1em;
+border-top: solid 2px black;
+border-bottom: solid 2px black;
+}
+.b p:before, .b p:after{
+content: '';
+position: absolute;
+top: -7px;
+width: 2px;
+  height: -webkit-calc(100% + 14px);
+height: calc(100% + 14px);
+background-color: black;
+}
+.b p:before {left: 7px;}
+.b p:after {right: 7px;}

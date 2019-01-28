@@ -1,0 +1,69 @@
+// Place all the styles related to the hears controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.hako{
+    width: auto;
+    height: 500px;
+    background-color: #CCFFFF;
+}
+
+.hako1{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.hako1 span{
+    text-align: center;
+    font-size: 120%;
+    
+}
+span {
+position: relative;
+padding: 0.6em;
+background: -webkit-repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+background: repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+border-radius: 7px;
+}
+
+span:after {
+position: absolute;
+content: '';
+top: 100%;
+left: 30px;
+border: 15px solid transparent;
+border-top: 15px solid #ffebbe;
+width: 0;
+height: 0;
+}
+
+.hako2{
+    width: 100%;
+    height: 350px;
+    margin: 20px auto 0 auto;
+    padding-bottom: 15px;
+    text-align: center;
+    
+}
+
+.hako2 button{
+    height: 100px;
+    padding-left: 20px;
+    
+}
+
+.frame{
+    height: 400px;
+    width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("Mizuho18116027_TP_V4.jpg");
+    background-size: cover;
+}
+
+img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}

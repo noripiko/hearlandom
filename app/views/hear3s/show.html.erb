@@ -1,0 +1,10 @@
+<div class="a"><a class="btn btn-primary" href="/" role="button">戻る</a>
+    <% @hear3.each do |hear| %>
+        <div class="b">
+            <p>あなたはこの髪型にすべきです。</p>
+            <div class="content_post" style="background-image: url(<%= hear.image_url %>)">
+            </div>
+        </div>
+    <% end %>
+    
+</div>
