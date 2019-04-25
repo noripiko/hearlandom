@@ -1,5 +1,5 @@
 # README
 
-#髪型を猫が決めてくれますで
+髪型を猫が決めてくれますで
 
-＃https://hidden-ravine-90918.herokuapp.com/
+https://hidden-ravine-90918.herokuapp.com/
